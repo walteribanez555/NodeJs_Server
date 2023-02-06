@@ -6,13 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "db_Conn" : "node lib/mysqlConnection.js"
+    "db_Conn": "node lib/mysqlConnection.js",
+    "modelPrueba" : "node model/books.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "mysql": "^2.18.1"
+    "mysql2": "^3.1.0",
+    "sequelize": "^6.11.0"
   }
 }
